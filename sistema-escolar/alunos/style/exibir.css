@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;600&family=Castoro+Titling&family=Caveat:wght@500&family=Lora:ital@0;1&family=Montserrat:wght@200&family=Playfair+Display&family=Quicksand&family=Roboto+Mono:wght@300&family=Sofia+Sans+Condensed:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --corTexto: rgb(25, 31, 105);
+}
+body{
+    background-color: rgba(238, 238, 238, 0.89);
+    display: flex;
+    font-family: 'Lora', serif;
+    color: var(--corTexto);
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgb(25, 31, 105), rgb(81, 78, 105));
+    height: 100vh;
+    width: 20%;
+    color: var(--corTexto);
+}
+figure{
+    height: 25%;
+    text-align: center;
+}
+.img_logo{
+    width: 50%;
+}
+.topicos{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    color: white;
+}
+
+main{
+    display: flex;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 50px;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.titulo{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.tabela{
+    width: 95%;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.botoes-acao{
+    padding:8px;
+    border: none;
+    background-color: rgb(119, 119, 119);
+    background-color: var(--corTexto);
+    color: white;
+    border-radius: 8px;
+}
+#excluir{
+    background-color: rgb(252, 26, 26);
+}
+#alterar{
+    background-color: rgb(119, 119, 119);
+}
+
+
+.botoes{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: flex-start;
+    padding: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
